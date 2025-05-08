@@ -3,15 +3,16 @@ def add(a, b):
 
 
 def subtract(a, b):
-    # TODO: implement this
-    pass
+    return a - b
 
 
 def multiply(a, b):
-    # TODO: implement this
-    pass
+    return a * b
 
 
 def divide(a, b):
-    # TODO: implement this (don't forget to handle division by zero)
-    pass
+   def divide(a, b):
+    if b == 0:
+        raise ZeroDivisionError("Cannot divide by zero")
+    return a / b
+
